@@ -14,10 +14,11 @@ Pour utiliser le vrai backend : mettre `useMock: false` et régler `apiUrl`. En 
 
 ## Pour l'équipe backend
 
-Voir `API.md`. Les modèles de référence sont dans `src/app/core/models.ts` et les noms d'appels dans `src/app/core/*.service.ts`.
+Voir `../docs/API.md`. Les modèles de référence sont dans `src/app/core/models.ts` et les noms d'appels dans `src/app/core/\*.service.ts`.
 
 ## Structure
 
-- `core/` : modèles, services d'API, intercepteurs, faux backend.
-- `pages/` : un composant par écran (connexion, dossier, instruction, divergences, règles, formation, comptes, KPI).
-- `shared.ts` : anneau, frise d'étapes, carte du dossier.
+* `core/` : modèles, services d'API, intercepteurs, faux backend.
+* `pages/` : un composant par écran (connexion, dossier, instruction, divergences, règles, formation, comptes, KPI).
+* `shared.ts` : anneau, frise d'étapes, carte du dossier.
+
